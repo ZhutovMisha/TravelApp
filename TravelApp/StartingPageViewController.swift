@@ -14,20 +14,27 @@ class StartingPageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        signupBtnDesign()
-        signInBtn.designButton(borderWidth: 1, borderColor: UIColor.systemCyan)
+//        signUpBtn.designButton(borderWidth: 1, borderColor: UIColor.systemCyan , shadowPath: 1, shadowRadius: 5, shadowColor: UIColor.systemCyan, shadowOpacity: 5, maskToBounds: false, backgroundColor: .systemCyan)
+        
+        signInBtn.designButton(borderWidth: 1, borderColor: UIColor.systemCyan, shadowPath: 1, shadowRadius: 5, shadowColor: UIColor.systemCyan, shadowOpacity: 5, maskToBounds: false, backgroundColor: .white)
+        
+        
+        
+        
+        
+        
         // Do any additional setup after loading the view.
     }
     
     func signupBtnDesign(){
-        signUpBtn.layer.cornerRadius = signUpBtn.frame.height / 2
-        signUpBtn.clipsToBounds = true
-        signUpBtn.layer.masksToBounds = false
-        signUpBtn.layer.shadowRadius = 5
-        signUpBtn.layer.shadowOpacity = 1
-        signUpBtn.layer.shadowOffset = CGSize(width: 2, height: 2)
-        signUpBtn.layer.shadowColor = UIColor.systemCyan.cgColor
-        
+//        signUpBtn.layer.cornerRadius = signUpBtn.frame.height / 2
+//        signUpBtn.clipsToBounds = true
+//        signUpBtn.layer.masksToBounds = false
+//        signUpBtn.layer.shadowRadius = 5
+//        signUpBtn.layer.shadowOpacity = 1
+//        signUpBtn.layer.shadowOffset = CGSize(width: 2, height: 2)
+//        signUpBtn.layer.shadowColor = UIColor.systemCyan.cgColor
+//
     }
     
     
