@@ -16,7 +16,7 @@ class StartingPageViewController: UIViewController {
         
 //        signUpBtn.designButton(borderWidth: 1, borderColor: UIColor.systemCyan , shadowPath: 1, shadowRadius: 5, shadowColor: UIColor.systemCyan, shadowOpacity: 5, maskToBounds: false, backgroundColor: .systemCyan)
         
-        signInBtn.designButton(borderWidth: 1, borderColor: UIColor.systemCyan, shadowPath: 1, shadowRadius: 5, shadowColor: UIColor.systemCyan, shadowOpacity: 5, maskToBounds: false, backgroundColor: .white)
+//        signInBtn.designButton(borderWidth: 1, borderColor: UIColor.systemCyan, shadowPath: 1, shadowRadius: 5, shadowColor: UIColor.systemCyan, shadowOpacity: 5, maskToBounds: false, backgroundColor: .white)
         
         
         

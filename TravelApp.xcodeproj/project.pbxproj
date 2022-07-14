@@ -49,6 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2AA6F0B288004CA00FB64E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE65A128787AB6008D5AF1 /* ViewController.swift */,
+				A2FF59FD2878DEB7002E9AD6 /* StartingPageViewController.swift */,
+				A2FF5A012878E5EB002E9AD6 /* SignInViewController.swift */,
+				A2AA6F09288004A000FB64E4 /* SignUpViewController.swift */,
+				A2AA6F05287DBE0000FB64E4 /* RegistrationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A2BE659128787AB6008D5AF1 = {
 			isa = PBXGroup;
 			children = (
@@ -70,14 +82,10 @@
 			children = (
 				A2BE659D28787AB6008D5AF1 /* AppDelegate.swift */,
 				A2BE659F28787AB6008D5AF1 /* SceneDelegate.swift */,
-				A2BE65A128787AB6008D5AF1 /* ViewController.swift */,
-				A2FF59FD2878DEB7002E9AD6 /* StartingPageViewController.swift */,
+				A2AA6F0B288004CA00FB64E4 /* Controllers */,
 				A2FF59FF2878E36C002E9AD6 /* extension UIButton.swift */,
-				A2FF5A012878E5EB002E9AD6 /* SignInViewController.swift */,
-				A2AA6F09288004A000FB64E4 /* SignUpViewController.swift */,
 				A2BE65A328787AB6008D5AF1 /* Main.storyboard */,
 				A2AA6F07287F1A9200FB64E4 /* UITextField + Extenstion.swift */,
-				A2AA6F05287DBE0000FB64E4 /* RegistrationViewController.swift */,
 				A2BE65A628787AB8008D5AF1 /* Assets.xcassets */,
 				A2BE65A828787AB8008D5AF1 /* LaunchScreen.storyboard */,
 				A2BE65AB28787AB8008D5AF1 /* Info.plist */,

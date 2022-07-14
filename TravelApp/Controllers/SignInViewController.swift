@@ -9,9 +9,14 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var txtNameOrEmail: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        txtNameOrEmail.addLeftView(image: UIImage(systemName: "person.fill")!)
+        txtPassword.addLeftView(image: UIImage(systemName: "lock.fill")!)
+        
         // Do any additional setup after loading the view.
     }
     
